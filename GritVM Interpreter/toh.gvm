@@ -1,0 +1,36 @@
+# GritVM Program with the TOH implementation
+# Requires 1 memory location with some int N that corresponds to the number of disks
+
+# Check memory, clear the accumulator
+CHECKMEM 1
+CLEAR
+
+# Copy N into a dummy variable for looping
+AT 0
+INSERT 1
+
+# Check if N = 0
+JUMPNZERO 2
+HALT
+
+# Calculate the number of moves and store to DM[2]
+CLEAR
+ADDCONST 1
+INSERT 1
+# Loop N times
+AT 1
+MULCONST 2
+SET 1
+AT 2
+SUBCONST 1
+SET 2
+JUMPNZERO -6
+# End Loop
+AT 1
+SUBCONST 1
+SET 1
+
+# Erase dummy and HALT
+ERASE 2
+# CLEAR
+HALT
