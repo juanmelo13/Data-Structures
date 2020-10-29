@@ -1,5 +1,6 @@
 # USF
-Repo for my work as a student at USF
+Repo for my work as a student at USF. It includes some of my projects that I have developed for the coursework, 
+although it does not include basic/trivial scripts also written by me. 
 
 
 Object oriented shopping cart script - 2/28/2020
