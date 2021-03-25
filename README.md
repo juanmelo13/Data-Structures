@@ -1,5 +1,5 @@
 # Data Structures
-Repo for my work for Data Structures class. In this class we learnt about the most popular data structures
+Repo for my work for the Data Structures class. In this class we learnt about the most popular data structures
 and how to implement them. As well as which data structure to use to solve different problems more effectively.
 
 The programming language used for this class was **C++**. 
