@@ -12,3 +12,5 @@ Projects included so far:
   * GritVM Interpreter with examples - 10/21/2020
 
   * Aritmetic Operator Notation Converter - 10/23/2020
+
+  * Huffman Encoder - 11/8/2020
